@@ -1,6 +1,7 @@
 public struct CardKit {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
-    }
+//    private var cardManager: CardManager
+
+//    static var shared: CardKit = CardKit()
+
 }
