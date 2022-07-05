@@ -12,6 +12,10 @@ struct ValueCard: Card {
     let suit: CardSuit
     let packIdentifier: String
     let cardIdentifier: String
+    
+    var description: String {
+        cardIdentifier
+    }
 
     init(value: CardValue, suit: CardSuit, packIdentifier: String = "1") {
         self.value = value

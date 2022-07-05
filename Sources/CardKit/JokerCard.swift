@@ -10,6 +10,11 @@ import Foundation
 struct JokerCard: Card {
     let packIdentifier: String
     let cardIdentifier: String
+    
+    var description: String {
+        cardIdentifier
+    }
+    
     let jokerNumber: Int
 
     init(packIdentifier: String = "1", jokerNumber: Int) {

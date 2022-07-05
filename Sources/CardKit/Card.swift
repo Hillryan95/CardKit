@@ -48,6 +48,7 @@ public enum CardSuit: Int, CaseIterable {
 public protocol Card {
     var packIdentifier: String { get }
     var cardIdentifier: String { get }
+    var description: String { get }
 }
 
 
